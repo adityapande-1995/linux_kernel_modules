@@ -1,6 +1,6 @@
 ## Introduction
 
-This repo aims to add some basic linux char drivers
+This repo aims to add some basic linux char drivers. I've tested these on Ubuntu Jammy (22.04, arm64).
 
 1. simple_char_driver : A simple character driver that can take in text and prints it to dmesg. 
 ```
