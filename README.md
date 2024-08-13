@@ -20,3 +20,10 @@ sudo ./run_sniffer.sh clean # cleanup
 cd packet_dropper
 sudo ./run_and_test.sh
 ```
+
+4. loopback_netdev : Creates a loopback device that can be pinged to.
+```
+cd loopback_netdev
+sudo ./run_and_test.sh
+```
+
