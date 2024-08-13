@@ -14,3 +14,9 @@ cd packet_sniffer
 sudo ./run_sniffer.sh # Starts the sniffer
 sudo ./run_sniffer.sh clean # cleanup
 ```
+
+3. packet_dropper : Drops some specified percent of packets randomly.
+```
+cd packet_dropper
+sudo ./run_and_test.sh
+```
