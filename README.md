@@ -8,7 +8,7 @@ cd simple_char_driver
 sudo ./test_and_run.sh
 ```
 
-2. packet_sniffer : A simple packet sniffer that shows what TCP/UDP packets are being transferred.
+2. packet_sniffer : A simple packet sniffer that shows what TCP/UDP packets are being transferred. Uses a combination of a kernel module and a user space program.
 ```
 cd packet_sniffer
 sudo ./run_sniffer.sh # Starts the sniffer
